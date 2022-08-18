@@ -1,0 +1,38 @@
+.new__ad {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  border-radius: 7px;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+.new__ad__bg{
+  background-color: blueviolet;
+}
+.add__ad__bg {
+  background-color: rgb(207, 58, 71);
+
+}
+.new__ad i {
+  font-size: 20px;
+  margin-top: 4px;
+}
+.footer__all {
+  box-sizing: border-box;
+  position: fixed;
+  top: 88vh;
+  right: 0;
+  width: 32%;
+}
+.footer__companent {
+  gap: 15px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  border-radius: 15px 0 0 0;
+  height: 15vh;
+  background: rgba(255, 255, 255, 0.205);
+  backdrop-filter: saturate(180%) blur(10px);
+}

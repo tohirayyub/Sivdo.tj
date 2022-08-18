@@ -1,0 +1,182 @@
+.user__companent {
+  background: rgba(143, 137, 137, 0.274);
+  backdrop-filter: saturate(180%) blur(10px);
+  width: 80%;
+  height: fit-content;
+  top: 12%;
+  left: 12%;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.user__navigation {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+
+.user__navigation ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.user__navigation ul li {
+  border: 1px solid gray;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.user__navigation ul li:hover {
+  cursor: pointer;
+  background-color: rgba(161, 161, 161, 0.438);
+}
+
+.full_up_purse {
+  font-size: larger;
+  cursor: pointer;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: rgba(55, 190, 55, 0.63);
+}
+.full_up_purse:hover {
+  background-color: rgba(65, 214, 65, 0.63);
+}
+
+.user__navigation ul a {
+  color: white;
+  text-decoration: none;
+}
+
+.myAnnoun__companent {
+  color: grey;
+  background: rgba(141, 112, 112, 0.301);
+  backdrop-filter: saturate(180%) blur(10px);
+  width: 80%;
+  height: fit-content;
+  top: 23%;
+  left: 12%;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 10px;
+  gap: 20px;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.myAnnoun__companent button {
+  border: none;
+  background: none;
+  color: white;
+}
+
+.myAnnoun__companent button:hover {
+  color: rgb(0, 255, 128);
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.all_advv {
+  border-radius: 0px 0 20px 0;
+  margin: 7px;
+  display: flex;
+  width: 1000px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.445);
+}
+
+.all_advv_img_and_titles {
+  display: flex;
+  gap: 10px;
+}
+
+.all_advv_titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.delete_post_btn {
+  background-color: rgba(128, 128, 128, 0.507);
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.delete_post_btn:hover {
+  color: red;
+  background: white;
+  cursor: pointer;
+}
+
+.delete_price {
+  border: 1px solid rgb(196, 186, 186);
+  padding: 7px;
+  border-radius: 7px;
+}
+
+.bg_modal_delete {
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.616);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal_delete_post {
+  text-align: center;
+  color: black;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.modal_delete_post button{
+  margin-top: 10px;
+  border: 2px solid gray;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100px;
+  border:none;
+  background: gray;
+  padding: 10px;
+  border-radius: 5px;
+
+}
+
+.modal_delete_post button:hover{
+  background-color: rgba(216, 211, 211, 0.979);
+}
+
+.button_delete_post{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+.active{
+  /* color: red; */
+  background-color: rgba(128, 128, 128, 0.795);
+  border-radius: 7px;
+}

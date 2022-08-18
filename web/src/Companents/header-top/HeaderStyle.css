@@ -1,0 +1,167 @@
+@import url("http://fonts.cdnfonts.com/css/berlin-sans-fb-demi");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@200&display=swap");
+.title_sivdo {
+  color: white;
+  margin-right: 20px;
+  font-size: 2em;
+  font-family: "Berlin Sans FB Demi", sans-serif;
+}
+
+.header__all {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header__all a {
+  text-decoration: none;
+}
+
+.header__container {
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.205);
+  backdrop-filter: saturate(180%) blur(10px);
+  box-sizing: border-box;
+  width: 80%;
+  height: 60px;
+  border-radius: 0 0 0 15px;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+}
+
+.input__search {
+  box-sizing: border-box;
+  color: white;
+  padding-left: 20px;
+  padding-right: 100px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.205);
+  width: 400px;
+  border: 1px solid rgba(255, 255, 255, 0.507);
+  border-radius: 15px;
+}
+.input__search::placeholder {
+  color: rgba(255, 255, 255, 0.596);
+}
+.input__search:focus {
+  outline: none;
+}
+.button__search {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.507);
+  border: none;
+  border-radius: 50px;
+  width: 82px;
+  height: 26px;
+  left: 356px;
+  position: absolute;
+  cursor: pointer;
+  top: 17px;
+}
+
+.button__search:hover {
+  background-color: rgba(255, 255, 255, 0.774);
+}
+.select {
+  margin-left: 30px;
+  padding: 8px 12px;
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.507);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.select:focus {
+  outline: none;
+}
+
+.select option {
+  background-color: rgba(28, 36, 109, 0.507);
+}
+.text__ads {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.thing {
+  margin-right: 10px;
+  border-radius: 10px;
+  padding: 0px 10px;
+  background-color: rgba(55, 190, 55, 0.63);
+  margin-left: 50px;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+}
+
+.login__user {
+  font-size: small;
+  color: white;
+  margin-left: 65px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.login__user span:nth-child(2) {
+  border: 1px solid white;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.login__user:hover .dropdown__accaunt {
+  display: block;
+  transition: 2s;
+}
+
+.dropdown__accaunt {
+  transition: 600ms;
+  display: none;
+  position: absolute;
+  background: rgb(255, 255, 255);
+  backdrop-filter: saturate(180%) blur(20px);
+  top: 90%;
+  border-radius: 10px;
+  right: 3%;
+}
+
+/* .dropdown__accaunt::before {
+  background: rgb(255, 255, 255);
+  backdrop-filter: saturate(180%) blur(20px);
+  content: "";
+  height: 10px;
+  position: absolute;
+  right: 35px;
+  transform: rotate(45deg);
+  top: -5px;
+  width: 10px;
+} */
+.dropdown__accaunt ul {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+
+.dropdown__accaunt ul a{
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown__accaunt li {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.dropdown__accaunt li:hover {
+  background-color: rgb(153, 169, 238);
+  cursor: pointer;
+  color: black;
+  transition: 200ms;
+}

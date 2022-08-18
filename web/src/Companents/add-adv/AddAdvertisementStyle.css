@@ -1,0 +1,208 @@
+.modal__background_adv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  position: fixed;
+  color: white;
+  background: rgba(0, 0, 0, 0.616);
+  backdrop-filter: saturate(180%) blur(40px);
+}
+.modal__companent_adv {
+  background-color: rgba(255, 255, 255, 0.288);
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+}
+.selector__container {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+.select__style {
+  padding: 8px 12px;
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.507);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.select__style:focus {
+  outline: none;
+}
+.select__style option {
+  background-color: rgba(28, 36, 109, 0.507);
+}
+.progress__bar {
+  border-radius: 20px;
+  position: absolute;
+  top: 10%;
+  width: 800px;
+  height: 4px;
+  background-color: rgba(255, 255, 255, 0.233);
+  margin-bottom: 50px;
+}
+.progress__bar div {
+  border-radius: 20px;
+  transition: 1s;
+  height: 100%;
+  background-color: rgba(198, 191, 206, 0.747);
+}
+.footer__next_prev {
+  float: right;
+  margin-top: 20px;
+}
+.footer__next_prev button {
+  background-color: rgba(255, 255, 255, 0.507);
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  margin: 2px;
+}
+.footer__next_prev button:hover {
+  transition: 200ms;
+  color: rgba(34, 37, 39, 0.521);
+}
+.footer__next_prev:focus {
+  outline: none;
+}
+
+.second__form_companent {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.input__title form input {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.507);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 0 0 10px;
+  width: 300px;
+}
+.input__title form input:focus {
+  outline: none;
+}
+
+.float__step input {
+  width: 60px !important;
+}
+.float__step input:nth-of-type(2) {
+  width: 80px !important;
+}
+.float__step {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.third__form_companent {
+  margin-top: 20px;
+}
+
+.price__form input {
+  width: 80px !important;
+}
+
+#file_input {
+  display: none;
+}
+#file_input + label {
+  background-color: blueviolet;
+  padding: 8px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+
+.add__image {
+  margin-top: 10px;
+}
+
+.add__image label {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px dotted white;
+  border-radius: 20px;
+  width: 6rem;
+  height: 6rem;
+  font-size: smaller;
+  cursor: pointer;
+}
+
+.add__image label span {
+  font-weight: lighter;
+  font-size: smaller;
+}
+
+.add__image input {
+  display: none;
+}
+
+.images__add {
+  position: absolute;
+  left: -400px;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  width: 320px;
+}
+.image_map {
+  display: flex;
+  margin: 3px;
+}
+.image_map img {
+  border-radius: 10px;
+  position: relative;
+}
+
+.delet__image{
+    position: absolute;
+}
+
+.textarea textarea{
+ border: none;
+ background-color: rgba(255, 255, 255, 0.507);
+ border-radius: 10px;
+ padding: 20px;
+ box-sizing: border-box;
+ position: absolute;
+ top: 250px;
+ left: 130px;
+ resize: none;
+}
+.textarea textarea:focus{
+    outline: none;
+}
+
+.image_map button{
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(255, 0, 0, 0);
+    color: white;
+    font-size: larger;
+    filter: drop-shadow(1px 1px 5px rgba(0, 0, 4, 0.521));
+}
+
+.image_map button:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.error__length p{
+    position: absolute;
+    background-color:rgb(250, 241, 241);
+    right: -420px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 1s ease-in-out;
+    color: red;
+}

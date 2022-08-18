@@ -1,0 +1,67 @@
+.modal__background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    position: absolute;
+    top: -128px;
+    left: -273px;
+    color: white;
+    background: rgba(0, 0, 0, 0.616);
+    backdrop-filter: saturate(180%) blur(40px);
+}
+.modal__container{
+    background-color: rgba(255, 255, 255, 0.178);
+    width: 55%;
+    padding: 20px;
+    border-radius: 15px;
+    height: 390px;
+}
+.modal__container a{
+    text-decoration: none;
+    color: white;
+}
+
+.show__all__rubric{
+    border: 1px solid white;
+    border-radius: 7px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+.show__all__rubric:hover{
+    background-color: rgba(127, 219, 255, 0.199);
+}
+.dflex{
+    display: flex;
+}
+.ul__rubric{
+    list-style: none;
+    padding: 0;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.ul__rubric a{
+    text-decoration: none;
+    color: white;
+}
+
+.ul__rubric li{
+    border: 1px solid rgba(255, 255, 255, 0.596);
+    border-radius: 7px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.ul__rubric li a li:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.342);
+}
+.ul__rubric a li:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.342);
+}

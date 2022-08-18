@@ -1,0 +1,51 @@
+.ul__navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.li__navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.home {
+  background-color: rgba(137, 43, 226, 0.479);
+}
+.user {
+  background-color: rgb(49, 226, 43, 0.555);
+}
+.userr{
+  border: 1px solid white;
+  padding: 3px;
+  border-radius: 4px;
+}
+.favorite {
+  background-color: rgb(226, 214, 43, 0.555);
+}
+.search {
+  background-color: rgba(226, 43, 180, 0.555);
+}
+.messager {
+  background-color: rgba(43, 226, 226, 0.555);
+}
+.addpost{
+  background-color: rgba(226, 43, 43, 0.555);
+  cursor: pointer;
+}
+.container__navigations {
+  background: rgba(255, 255, 255, 0.205);
+  backdrop-filter: saturate(180%) blur(10px);
+  box-sizing: border-box;
+  width: 60px;
+  height: 80vh;
+  position: fixed;
+  top: 50px;
+  border-radius: 0 15px 15px 0;
+}
